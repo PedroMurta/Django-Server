@@ -25,7 +25,7 @@ CSRF_TRUSTED_ORIGINS = ['https://cooperpalmas.org.br', 'https://django-server-pr
 SECRET_KEY = 'django-insecure-rc^*w^w&6g9_(uvx#6s*bnt!w)l0rdi%!l7mv#y%uc&x%wo5pk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 

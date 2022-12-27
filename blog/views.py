@@ -106,4 +106,4 @@ def contato(request):
 def category(request, slug):
     category = get_object_or_404(Category, slug=slug)
     posts = category.posts.filter(status=Post.ACTIVE)
-    #return render(request, 'blog/category.html', {'category': category, 'posts': posts})
+    return render(request, 'blog/category.html', {'category': category, 'posts': posts})

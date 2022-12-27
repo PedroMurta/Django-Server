@@ -129,7 +129,7 @@ STATICFILES_DIRS = [
     
 ]
 
-CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_UPLOAD_PATH = "media/uploads/"
 CKEDITOR_IMAGE_BACKEND = 'pillow'
 # Media Files
 MEDIA_URL = '/media/'
